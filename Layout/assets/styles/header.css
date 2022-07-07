@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-family: var(--font-title);
+  color: var(--grey-2);
+}
+
+header img {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  cursor: pointer;
+}

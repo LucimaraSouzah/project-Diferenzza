@@ -1,0 +1,21 @@
+.section-categories {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.section-categories div {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  padding: 8px;
+  border-radius: 16px;
+  gap: 10px;
+}
+
+.section-categories div p {
+    color: var(--grey-2);
+}
