@@ -3,16 +3,19 @@
 @import url(header.css);
 @import url(section-input.css);
 @import url(section-categories.css);
+@import url(section-cards.css);
 
 :root {
   --font-title: "Arima", cursive;
   --font-text: "Poppins", sans-serif;
   --white: #ffffff;
+  --black: #000000;
   --grey-1: #f8f8f8;
   --grey-2: #707070;
   --pink-1: #ffd4d4;
   --pink-2: #f89e9e;
   --pink-3: #ff777b;
+  --pink-4: #E65357;
   --yellow: #fcd635;
   --red: #f05542;
 }
@@ -28,4 +31,5 @@ body {
   width: 100vw;
   height: 100%;
   background-color: var(--grey-1);
+  overflow-x: hidden;
 }
