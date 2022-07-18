@@ -27,7 +27,7 @@
 .iconHeart {
   width: 25px;
   height: 25px;
-  background-image: url(/assets/images/icons/heart.svg);
+  background-image: url(../images/icons/heart.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -71,7 +71,7 @@ h1 {
 .stars {
   width: 80px;
   height: 20px;
-  background-image: url(/assets/images/icons/star-yellow.svg);
+  background-image: url(../images/icons/star-yellow.svg);
   background-repeat: repeat-x;
   cursor: pointer;
 }
@@ -81,7 +81,7 @@ button {
   height: 35px;
   margin-bottom: 10px;
   border-radius: 50%;
-  background-image: url(/assets/images/icons/plus.svg);
+  background-image: url(../images/icons/plus.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

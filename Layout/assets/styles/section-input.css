@@ -10,7 +10,7 @@
   border-radius: 10px;
   border: 1px solid var(--grey-2);
   outline: none;
-  background-image: url(/assets/images/icons/search.svg);
+  background-image: url(../images/icons/search.svg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -22,7 +22,7 @@
   padding: 10px;
   border-radius: 10px;
   background-color: var(--pink-3);
-  background-image: url(/assets/images/icons/filter.svg);
+  background-image: url(../images/icons/filter.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1.6em;
