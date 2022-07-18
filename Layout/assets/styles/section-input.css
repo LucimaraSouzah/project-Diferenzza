@@ -10,9 +10,7 @@
   border-radius: 10px;
   border: 1px solid var(--grey-2);
   outline: none;
-  background-image: url(../images/icons/search.svg);
-  background-position: right;
-  background-repeat: no-repeat;
+  background: url(../images/icons/search.svg) no-repeat right;
   background-size: contain;
 }
 
@@ -21,10 +19,7 @@
   margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: var(--pink-3);
-  background-image: url(../images/icons/filter.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 1.6em;
   cursor: pointer;
+  background: url(../images/icons/filter.svg) no-repeat center var(--pink-3);
+  background-size: 1.6em;
 }

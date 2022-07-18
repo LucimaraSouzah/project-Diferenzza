@@ -27,10 +27,8 @@
 .iconHeart {
   width: 25px;
   height: 25px;
-  background-image: url(../images/icons/heart.svg);
-  background-repeat: no-repeat;
+  background: url(../images/icons/heart.svg) no-repeat right;
   background-size: contain;
-  background-position: right;
   cursor: pointer;
 }
 
@@ -71,8 +69,7 @@ h1 {
 .stars {
   width: 80px;
   height: 20px;
-  background-image: url(../images/icons/star-yellow.svg);
-  background-repeat: repeat-x;
+  background: url(../images/icons/star-yellow.svg) repeat-x;
   cursor: pointer;
 }
 
@@ -81,20 +78,17 @@ button {
   height: 35px;
   margin-bottom: 10px;
   border-radius: 50%;
-  background-image: url(../images/icons/plus.svg);
-  background-repeat: no-repeat;
+  background: url(../images/icons/plus.svg) no-repeat center var(--pink-3);
   background-size: cover;
-  background-position: center;
   border: 1px solid var(--pink-2);
-  background-color: var(--pink-3);
   cursor: pointer;
 }
 
 button:hover {
-    border: 1px solid var(--pink-3);
+  border: 1px solid var(--pink-3);
   background-color: var(--pink-4);
 }
 
 button:hover path {
-    fill: #000000;
+  fill: #000000;
 }
